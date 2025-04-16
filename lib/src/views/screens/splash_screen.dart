@@ -10,6 +10,10 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: Text("Abdullah Al Shakibdd")));
+    return Scaffold(
+      body: Column(
+        children: [Center(), Center(child: Text("Abdullah Al Shakibdd"))],
+      ),
+    );
   }
 }
