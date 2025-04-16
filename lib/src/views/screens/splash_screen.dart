@@ -12,7 +12,10 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: [Center(), Center(child: Text("Abdullah Al Shakibdd"))],
+        children: [
+          Center(child: Text('data')),
+          Center(child: Text("Abdullah Al Shakibdd")),
+        ],
       ),
     );
   }
