@@ -11,12 +11,12 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("New Project"),
-        centerTitle: true,
-      ),
+      appBar: AppBar(title: Text("New Project"), centerTitle: true),
       body: Column(
         children: [
+          Center(child: Text('data')),
+          Center(child: Text("Abdullah Al Shakibdd")),
+
           Center(child: Text('data')),
           Center(child: Text("Abdullah Al Shakibdd")),
         ],
