@@ -158,7 +158,6 @@ class _GroupsScreenState extends State<GroupsScreen> {
                   Container(
                     height: 35,
                     width: 80,
-
                     decoration: BoxDecoration(
                       color: Colors.greenAccent,
                       borderRadius: BorderRadius.circular(10),
