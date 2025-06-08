@@ -25,6 +25,8 @@ class _SplashScreenState extends State<SplashScreen> {
           Center(child: Text("Abdullah Al Shakibdd")),
           Text('ASAP'),
           Text("shakib"),
+
+          Row(children: []),
         ],
       ),
     );
